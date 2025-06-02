@@ -6,4 +6,5 @@ Diseño Data Lake Masacres en Colombia
 
 2. ETL: Repositorio de los procesos de Extracción, Transformación y Carga (ETL) aplicados a los datasets. Estos procesos preparan y cargan la información al Data Lake de forma estructurada y eficiente.
 
-![image](https://github.com/user-attachments/assets/02fe6519-bcb2-4d17-afc6-3ee562556483)
+![image](https://github.com/user-attachments/assets/b742b631-d1de-4fc3-a0f6-3d1a364eb373)
+
