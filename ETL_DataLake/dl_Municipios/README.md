@@ -2,4 +2,4 @@
 
 Diseño Data Lake Masacres en Colombia/Municipios
 
-![Diseño](dl_Municipios.png)
+![Diseño](dl_Municipios.png) 
