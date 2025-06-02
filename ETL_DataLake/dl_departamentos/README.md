@@ -1,5 +1,5 @@
 # ETL DataLake ETLMasacres en Colombia
 
-Diseño Data Lake Masacres en Colombia
+Diseño Data Lake Masacres en Colombia/Departamentos
 
-![Diseño](dl_MasacresCOL.png)
+![Diseño](dl_Departamentos.png)
