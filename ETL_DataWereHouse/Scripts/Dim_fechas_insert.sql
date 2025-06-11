@@ -6,14 +6,20 @@
 
 SET DATEFIRST 1;
 
-INSERT INTO DataWareHouse.dbo.DIM_Fechas 
+INSERT INTO DataWereHouse.dbo.DIM_Fechas 
 (FechaHecho, Annio, Mes, Dia, DiaSemana, Semana, Trimestre)
-SELECT DISTINCT FECHA_HECHO AS FechaHecho
-	, YEAR(FECHA_HECHO) AS Annio
-	, MONTH(FECHA_HECHO) AS Mes
-	, DAY(FECHA_HECHO) AS Dia
-	, DATEPART(WEEKDAY, FECHA_HECHO) AS DiaSemana
-	, DATEPART(WEEK, FECHA_HECHO) AS Semana
-	, DATEPART(QUARTER, FECHA_HECHO) AS Trimestre
-FROM dbo.DL_Homicidios
+SELECT DISTINCT 
+    FECHA_HECHO AS FechaHecho,
+    YEAR(FECHA_HECHO) AS Annio,
+    MONTH(FECHA_HECHO) AS Mes,
+    DAY(FECHA_HECHO) AS Dia,
+    DATEPART(WEEKDAY, FECHA_HECHO) AS DiaSemana,
+    DATEPART(WEEK, FECHA_HECHO) AS Semana,
+    DATEPART(QUARTER, FECHA_HECHO) AS Trimestre
+FROM DataLake.dbo.DL_MasacresCOL DL
 WHERE FECHA_HECHO IS NOT NULL
+  AND NOT EXISTS (
+      SELECT 1 
+      FROM DataWereHouse.dbo.DIM_Fechas DF 
+      WHERE DF.FechaHecho = DL.FECHA_HECHO
+  );
