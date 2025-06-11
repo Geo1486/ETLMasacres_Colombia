@@ -7,7 +7,7 @@ INSERT INTO DataWereHouse.dbo.FAC_MasacresCOL
 (FechaHecho, CodMpio, Casos, Victimas)
 SELECT
     FECHA_HECHO as FechaHecho,
-	COD_MUNI as CodMpio,
- 	CASOS as Casos,
+    COD_MUNI as CodMpio,
+    CASOS as Casos,
     VICTIMAS as Victimas
 FROM DataLake.dbo.DL_MasacresCOL
