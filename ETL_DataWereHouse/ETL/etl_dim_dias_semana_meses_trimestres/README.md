@@ -1,1 +1,2 @@
-file:///C:/Knime/DataWereHouse/etl_dim_dias_semana_meses_trimestres/workflow.svg
+![image](https://github.com/user-attachments/assets/e5779577-57d1-43fc-bd5a-0078c5cb5f37)
+
