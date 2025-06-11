@@ -5,9 +5,17 @@
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
-    <config key="model"/>
+    <config key="model">
+        <entry key="statementSeparator" type="xstring" value=";"/>
+        <entry key="statement" type="xstring" value="-- Explicación:%%00010-- OBJECT_ID('dbo.FAC_MasacresCOL', 'U'): Verifica si existe un objeto de tipo tabla ('U' para &quot;User Table&quot;) con ese nombre.%%00010-- Si OBJECT_ID devuelve NULL, la tabla no existe, por lo que se ejecuta la instrucción CREATE TABLE.%%00010%%00010IF OBJECT_ID('dbo.FAC_MasacresCOL', 'U') IS NULL%%00010BEGIN%%00010CREATE TABLE DataWereHouse.dbo.FAC_MasacresCOL (%%00010    IdMasacre INT IDENTITY(1,1) NOT NULL,%%00010    FechaHecho DATE NOT NULL,%%00010    CodMpio INT NOT NULL,%%00010    Casos TINYINT NOT NULL,%%00010    Victimas TINYINT NOT NULL,%%00010%%00009%%00009CONSTRAINT FAC_MasacresCOL_PK PRIMARY KEY (IdMasacre),%%00010%%00009%%00009CONSTRAINT FAC_MasacresCOL_DIM_Fechas_FK FOREIGN KEY (FechaHecho) REFERENCES dbo.DIM_Fechas(FechaHecho),%%00010%%00009%%00009CONSTRAINT FAC_MasacresCOL_DIM_Municipios_FK FOREIGN KEY (CodMpio) REFERENCES dbo.DIM_Municipios(CodMpio),%%00010%%00009%%00009%%00009%%00009%%00009%%00010%%00009);%%00010%%00009END;%%00010%%00010"/>
+        <config key="multipleStatement_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="multipleStatement" type="xboolean" value="false"/>
+    </config>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="Carga de datos en memoria"/>
+        <entry key="text" type="xstring" value="Creación de tabla %%00010FAC_MasacresCOL"/>
         <entry key="contentType" type="xstring" value="text/plain"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
         <entry key="x-coordinate" type="xint" value="0"/>
@@ -23,8 +31,8 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <entry key="factory" type="xstring" value="org.knime.database.node.io.reader.DBReadNodeFactory"/>
-    <entry key="node-name" type="xstring" value="DB Reader"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.manipulation.executor.DBExecutorNodeFactory"/>
+    <entry key="node-name" type="xstring" value="DB SQL Executor"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -34,20 +42,22 @@
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-feature-version" type="xstring" value="5.4.4.v202504301444"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="DB Reader"/>
+    <entry key="name" type="xstring" value="DB SQL Executor"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 301, Cols: 7"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBSessionPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Microsoft SQL Server bf812509-4305-46ba-be9e-cefcbcb6417e"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="127f4692-ad12-425b-a5ea-86516bae011e"/>
+        <entry key="file_store_id" type="xstring" value="0731fa22-c67a-4a1d-8a74-80567079dad4"/>
     </config>
 </config>
