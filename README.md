@@ -3,6 +3,6 @@ Este proceso ETL tiene como objetivo centralizar, limpiar y estructurar la infor
 
 ![image](https://github.com/user-attachments/assets/36ceea94-aabf-4685-819c-290e25e81834)
 
+![image](https://github.com/user-attachments/assets/7fdf517c-1f26-4fc4-a86f-b75056791e74)
 
-![image](https://github.com/user-attachments/assets/fd8a4c37-23e9-448d-ad50-4de2472d89a8)
 
