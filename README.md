@@ -6,7 +6,5 @@ Este proceso ETL tiene como objetivo centralizar, limpiar y estructurar la infor
 
 
 
-
-https://inpahuedu-my.sharepoint.com/:v:/g/personal/jorgejurado_uninpahu_edu_co/EYb3aPsD9upPm43dtpta2u4BTr-G7Hcqv6FrtLmasL7VQw?e=AzLPWI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+<iframe src="https://inpahuedu-my.sharepoint.com/personal/jorgejurado_uninpahu_edu_co/_layouts/15/embed.aspx?UniqueId=fb68f786-f603-4fea-9b8d-ddb69b5adaee&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Llamada con HEIDY y 1 más-20250602_163023-Grabación de la reunión.mp4"></iframe>
 
