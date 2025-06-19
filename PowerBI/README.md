@@ -17,7 +17,7 @@ Distribución geográfica:
 
 Imagen 2
 
-![Diseño](AnálisisdeMasacresenColombia.png)
+![Diseño](Análisis_MasacresCOL.png)
 
 Análisis de MasacresCOL: Víctimas por lugar (2022–2025):
 
@@ -47,7 +47,7 @@ Esto podría reflejar concentración urbana, conflictos sociales o factores asoc
 
 Imagen 3
 
-![Diseño](TiempoyTerritorio.png)
+![Diseño](Tiempo_Territorio.png)
 
 Tiempo y Territorio, análisis temporal:
 
