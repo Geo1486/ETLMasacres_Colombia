@@ -29,7 +29,7 @@ Se observa un descenso sostenido en el número de víctimas de masacres:
  
  -- 2024: 302
  
- -- 2025: 75 (hasta la fecha, probablemente datos parciales)
+ -- 2025: 75 (hasta la fecha, datos parciales)
 
 Este descenso puede interpretarse como un indicio de mejora en seguridad o subregistro si no se ha consolidado la data de 2025.
 
@@ -37,7 +37,7 @@ Acumulado Total:
 
 1. 301 casos y 1050 víctimas en el período 2022–2025. Una media de 3.5 víctimas por caso.
 
-2. Mayoría de masacres tuvieron entre 3 y 5 víctimas (común definición de masacre).
+2. Mayoría de masacres tuvieron entre 3 y 5 víctimas.
 
 3. El pico más alto fue de un evento con 18 víctimas, seguido por otros con 10 y 5.
 
@@ -61,7 +61,7 @@ Se incorporan filtros por trimestre, mes y año, lo que permite análisis más d
 
 Lo interesante es la mezcla de capitales departamentales y zonas de frontera o conflicto armado.
 
-Casos por departamento (gráfico de árbol):
+Casos por departamento:
 
  1. Cauca (36), Valle del Cauca (34), Antioquia (33) encabezan los casos.
 
