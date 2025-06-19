@@ -12,8 +12,7 @@ Distribución geográfica:
 
 4. El valor total de víctimas (1050) se corrobora, distribuidos en múltiples municipios. Aquí es importante destacar el patrón de dispersión: alta fragmentación territorial.
 
-   (Cartografía_MasacresCOL.png)
-
+![Diseño](Masacres_COL.png) 
 Imagen 2
 
 Análisis de MasacresCOL: Víctimas por lugar (2022–2025):
