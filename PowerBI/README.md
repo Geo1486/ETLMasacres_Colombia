@@ -1,5 +1,7 @@
 Imagen 1
 
+![Diseño](Cartografía_MasacresCOL.png) 
+
 Visualización cartográfica:
 
 Distribución geográfica:
@@ -12,8 +14,10 @@ Distribución geográfica:
 
 4. El valor total de víctimas (1050) se corrobora, distribuidos en múltiples municipios. Aquí es importante destacar el patrón de dispersión: alta fragmentación territorial.
 
-![Diseño](Cartografía_MasacresCOL.png) 
+
 Imagen 2
+
+![Diseño](Análisis de Masacres en Colombia.png)
 
 Análisis de MasacresCOL: Víctimas por lugar (2022–2025):
 
@@ -42,6 +46,8 @@ Acumulado Total:
 Esto podría reflejar concentración urbana, conflictos sociales o factores asociados a crimen organizado.
 
 Imagen 3
+
+![Diseño](Tiempo y Territorio.png)
 
 Tiempo y Territorio, análisis temporal:
 
