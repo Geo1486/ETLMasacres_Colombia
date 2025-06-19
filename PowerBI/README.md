@@ -53,17 +53,17 @@ Tiempo y Territorio, análisis temporal:
 
 Se incorporan filtros por trimestre, mes y año, lo que permite análisis más detallados por estacionalidad o coyuntura específica.
 
- -- Meses como abril, agosto, diciembre parecen más seleccionados, posiblemente asociados a picos de violencia.
+ 1. Meses como abril, agosto, diciembre parecen más seleccionados, posiblemente asociados a picos de violencia.
  
- -- Bogotá D.C. se destaca con 54 víctimas.
+ 2. Bogotá D.C. se destaca con 54 víctimas.
  
- -- Le siguen Barranquilla (37), Puerto Guzmán (27), Soledad (27), y San José del Guaviare (25).
+ 3. Le siguen Barranquilla (37), Puerto Guzmán (27), Soledad (27), y San José del Guaviare (25).
 
 Lo interesante es la mezcla de capitales departamentales y zonas de frontera o conflicto armado.
 
 Casos por departamento (gráfico de árbol):
 
- -- Cauca (36), Valle del Cauca (34), Antioquia (33) encabezan los casos.
+ 1. Cauca (36), Valle del Cauca (34), Antioquia (33) encabezan los casos.
 
 Estos territorios tienen históricamente presencia de grupos armados ilegales, cultivos ilícitos y conflictos interétnicos.
 
