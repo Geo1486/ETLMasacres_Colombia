@@ -19,8 +19,11 @@ Análisis de MasacresCOL: Víctimas por lugar (2022–2025):
 Se observa un descenso sostenido en el número de víctimas de masacres:
 
  -- 2022: 340 víctimas
+ 
  -- 2023: 333
+ 
  -- 2024: 302
+ 
  -- 2025: 75 (hasta la fecha, probablemente datos parciales)
 
 Este descenso puede interpretarse como un indicio de mejora en seguridad o subregistro si no se ha consolidado la data de 2025.
@@ -44,7 +47,9 @@ Tiempo y Territorio, análisis temporal:
 Se incorporan filtros por trimestre, mes y año, lo que permite análisis más detallados por estacionalidad o coyuntura específica.
 
  -- Meses como abril, agosto, diciembre parecen más seleccionados, posiblemente asociados a picos de violencia.
+ 
  -- Bogotá D.C. se destaca con 54 víctimas.
+ 
  -- Le siguen Barranquilla (37), Puerto Guzmán (27), Soledad (27), y San José del Guaviare (25).
 
 Lo interesante es la mezcla de capitales departamentales y zonas de frontera o conflicto armado.
