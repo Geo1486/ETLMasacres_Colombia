@@ -17,7 +17,7 @@ Distribución geográfica:
 
 Imagen 2
 
-![Diseño](Análisis_de_Masacres_en_Colombia.png)
+![Diseño](AnálisisdeMasacresenColombia.png)
 
 Análisis de MasacresCOL: Víctimas por lugar (2022–2025):
 
